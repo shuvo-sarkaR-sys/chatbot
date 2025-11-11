@@ -3,7 +3,7 @@ const cors = require("cors")
  
 
 const app = express();
-app.use(cors({origin: "http://localhost:5173"}));
+app.use(cors({origin: "https://agency-website-react-js.vercel.app"}));
 app.use(express.json());
 
 app.post("/chatbot", (req, res) => {
